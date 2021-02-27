@@ -1,19 +1,19 @@
 import buildLocalizeFn from '../../../_lib/buildLocalizeFn/index'
 
 var eraValues = {
-  narrow: ['AC', 'DC'],
-  abbreviated: ['AC', 'DC'],
-  wide: ['antes de cristo', 'después de cristo']
+  narrow: ['a. C.', 'd. C.'],
+  abbreviated: ['a. C.', 'd. C.'],
+  wide: ['antes de Cristo', 'después de Cristo']
 }
 
 var quarterValues = {
   narrow: ['1', '2', '3', '4'],
   abbreviated: ['T1', 'T2', 'T3', 'T4'],
-  wide: ['1º trimestre', '2º trimestre', '3º trimestre', '4º trimestre']
+  wide: ['1.er trimestre', '2º trimestre', '3.er trimestre', '4º trimestre']
 }
 
 var monthValues = {
-  narrow: ['e', 'f', 'm', 'a', 'm', 'j', 'j', 'a', 's', 'o', 'n', 'd'],
+  narrow: ['E', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'],
   abbreviated: [
     'ene',
     'feb',
@@ -45,7 +45,7 @@ var monthValues = {
 }
 
 var dayValues = {
-  narrow: ['d', 'l', 'm', 'm', 'j', 'v', 's'],
+  narrow: ['D', 'L', 'M', 'X', 'J', 'V', 'S'],
   short: ['do', 'lu', 'ma', 'mi', 'ju', 'vi', 'sa'],
   abbreviated: ['dom', 'lun', 'mar', 'mié', 'jue', 'vie', 'sáb'],
   wide: [
@@ -74,17 +74,17 @@ var dayPeriodValues = {
     am: 'AM',
     pm: 'PM',
     midnight: 'medianoche',
-    noon: 'mediodia',
+    noon: 'mediodía',
     morning: 'mañana',
     afternoon: 'tarde',
     evening: 'tarde',
     night: 'noche'
   },
   wide: {
-    am: 'a.m.',
-    pm: 'p.m.',
+    am: 'a. m.',
+    pm: 'p. m.',
     midnight: 'medianoche',
-    noon: 'mediodia',
+    noon: 'mediodía',
     morning: 'mañana',
     afternoon: 'tarde',
     evening: 'tarde',
@@ -106,7 +106,7 @@ var formattingDayPeriodValues = {
     am: 'AM',
     pm: 'PM',
     midnight: 'medianoche',
-    noon: 'mediodia',
+    noon: 'mediodía',
     morning: 'de la mañana',
     afternoon: 'de la tarde',
     evening: 'de la tarde',
@@ -116,7 +116,7 @@ var formattingDayPeriodValues = {
     am: 'a.m.',
     pm: 'p.m.',
     midnight: 'medianoche',
-    noon: 'mediodia',
+    noon: 'mediodía',
     morning: 'de la mañana',
     afternoon: 'de la tarde',
     evening: 'de la tarde',
